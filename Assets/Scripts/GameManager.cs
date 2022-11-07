@@ -6,6 +6,13 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
+    //Gerenciamento Escola
+    public static int teacherIconM;
+    public static int studentsIconM;
+    public static int parentsIconM;
+    public static int moneyIconM;
+    public int maxValue = 100;
+    public int minValue = 0;
     //GAMEOBJECTS
     public ResourceManager resourceManager;
     public GameObject cardGameObject;
@@ -46,6 +53,9 @@ public class GameManager : MonoBehaviour
     }
     void Update()
     {
+        //Logica de valores de gerenciamento
+
+
         textColor.a = Mathf.Min((Mathf.Abs(cardGameObject.transform.position.x) - fSideMargin) / divideValue, 1);
         //Dialogo Texto
         if (cardGameObject.transform.position.x > fSideTrigger)
@@ -57,7 +67,7 @@ public class GameManager : MonoBehaviour
             }
         }else if (cardGameObject.transform.position.x > fSideMargin)
         {
-
+            
         }
         else if (cardGameObject.transform.position.x > -fSideMargin)
         {
