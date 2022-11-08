@@ -199,7 +199,7 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 52546523}
-  m_CullTransparentMesh: 1
+  m_CullTransparentMesh: 0
 --- !u!1 &91031534
 GameObject:
   m_ObjectHideFlags: 0
@@ -211,6 +211,7 @@ GameObject:
   - component: {fileID: 91031535}
   - component: {fileID: 91031536}
   - component: {fileID: 91031537}
+  - component: {fileID: 91031538}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -245,6 +246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26125a41098a3d14ba7e6bec25b227e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minValue: 0
   resourceManager: {fileID: 91031537}
   cardGameObject: {fileID: 6794146591938592833}
   cardSpriteRenderer: {fileID: 838879684}
@@ -279,6 +281,24 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5951ae0c824e094409cae4a402452424, type: 2}
   - {fileID: 11400000, guid: d235c7276b3bea04bb77b7514e0f9720, type: 2}
   - {fileID: 11400000, guid: 8a499afcb234faf449172aae4c9d1e18, type: 2}
+--- !u!114 &91031538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91031534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5848b95f89091074bb09ff339cb26c6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 91031536}
+  card: {fileID: 6794146591938592833}
+  teacherIconM: {fileID: 1190528513}
+  studentsIconM: {fileID: 273993441}
+  parentsIconM: {fileID: 1144005953}
+  moneyIconM: {fileID: 1551358195}
 --- !u!1 &141354067
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,7 +479,6 @@ GameObject:
   - component: {fileID: 262270544}
   - component: {fileID: 262270543}
   - component: {fileID: 262270542}
-  - component: {fileID: 262270541}
   m_Layer: 0
   m_Name: UI Icons
   m_TagString: Untagged
@@ -467,18 +486,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &262270541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 262270539}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5848b95f89091074bb09ff339cb26c6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &262270542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1063,7 +1070,7 @@ GameObject:
   - component: {fileID: 1144005954}
   - component: {fileID: 1144005953}
   m_Layer: 0
-  m_Name: ParentsIcon (1)
+  m_Name: ParentsIcon fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1139,7 +1146,7 @@ GameObject:
   - component: {fileID: 1190528514}
   - component: {fileID: 1190528513}
   m_Layer: 0
-  m_Name: TeacherIcon (1)
+  m_Name: TeacherIcon fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1564,7 +1571,7 @@ GameObject:
   - component: {fileID: 1551358196}
   - component: {fileID: 1551358195}
   m_Layer: 0
-  m_Name: MoneyIcon (1)
+  m_Name: MoneyIcon fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

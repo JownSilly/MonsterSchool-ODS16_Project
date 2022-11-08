@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     public static int studentsIconM;
     public static int parentsIconM;
     public static int moneyIconM;
-    public int maxValue = 100;
+    public static int maxValue = 100;
     public int minValue = 0;
     //GAMEOBJECTS
     public ResourceManager resourceManager;

@@ -26,18 +26,18 @@ public class Card : ScriptableObject
     {
         Debug.Log(cardName + "Swuiped left");
         //Anexando os Valores
-        GameManager.teacherIconM = mIconTeacherLeft;
-        GameManager.studentsIconM = mIconStudentsLeft;
-        GameManager.parentsIconM = mIconParentsLeft;
-        GameManager.moneyIconM = mIconMoneyLeft;
+        GameManager.teacherIconM += mIconTeacherLeft;
+        GameManager.studentsIconM += mIconStudentsLeft;
+        GameManager.parentsIconM += mIconParentsLeft;
+        GameManager.moneyIconM += mIconMoneyLeft;
     }
     public void Right()
     {
         Debug.Log(cardName + "swiped right");
         //Anexando os Valores
-        GameManager.teacherIconM = mIconTeacherRight;
-        GameManager.studentsIconM = mIconStudentsRight;
-        GameManager.parentsIconM = mIconParentsRight;
-        GameManager.moneyIconM = mIconMoneyRight;
+        GameManager.teacherIconM += mIconTeacherRight;
+        GameManager.studentsIconM += mIconStudentsRight;
+        GameManager.parentsIconM += mIconParentsRight;
+        GameManager.moneyIconM += mIconMoneyRight;
     }
    }
