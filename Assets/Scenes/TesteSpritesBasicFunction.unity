@@ -259,6 +259,7 @@ MonoBehaviour:
   actionQuote: {fileID: 747070116}
   display: {fileID: 141354069}
   characterDialogue: {fileID: 1272915433}
+  direction: 
   currentCard: {fileID: 0}
   testCard: {fileID: 11400000, guid: 5951ae0c824e094409cae4a402452424, type: 2}
 --- !u!114 &91031537
@@ -295,10 +296,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameManager: {fileID: 91031536}
   card: {fileID: 6794146591938592833}
-  teacherIconM: {fileID: 1190528513}
-  studentsIconM: {fileID: 273993441}
-  parentsIconM: {fileID: 1144005953}
-  moneyIconM: {fileID: 1551358195}
+  teacherIcon: {fileID: 1830119588}
+  studentsIcon: {fileID: 497463326}
+  parentsIcon: {fileID: 724123532}
+  moneyIcon: {fileID: 52546524}
+  teacherIconFill: {fileID: 1190528513}
+  studentsIconFill: {fileID: 273993441}
+  parentsIconFill: {fileID: 1144005953}
+  moneyIconFill: {fileID: 1551358195}
 --- !u!1 &141354067
 GameObject:
   m_ObjectHideFlags: 0

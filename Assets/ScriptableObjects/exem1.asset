@@ -19,10 +19,10 @@ MonoBehaviour:
   respostaEsquerda: Esquerda nanananaa
   respostaDireita: Direita nanananaa
   mIconTeacherLeft: 50
-  mIconStudentsLeft: 50
-  mIconParentsLeft: 50
+  mIconStudentsLeft: 0
+  mIconParentsLeft: 0
   mIconMoneyLeft: 50
-  mIconTeacherRight: -50
-  mIconStudentsRight: -50
+  mIconTeacherRight: 0
+  mIconStudentsRight: 0
   mIconParentsRight: -50
   mIconMoneyRight: -50

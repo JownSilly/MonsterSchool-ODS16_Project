@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public static int moneyIconM;
     public static int maxValue = 100;
     public int minValue = 0;
+    
     //GAMEOBJECTS
     public ResourceManager resourceManager;
     public GameObject cardGameObject;
@@ -30,6 +31,7 @@ public class GameManager : MonoBehaviour
     public TMP_Text actionQuote;
     public TMP_Text display;
     public TMP_Text characterDialogue;
+    public string direction;
     //Variaveis de Cartas
     private string leftQuote;
     private string rightQuote;
@@ -60,6 +62,7 @@ public class GameManager : MonoBehaviour
         //Dialogo Texto
         if (cardGameObject.transform.position.x > fSideTrigger)
         {
+            direction = "right";
             if (Input.GetMouseButtonUp(0))
             {
                 currentCard.Right();
@@ -67,18 +70,20 @@ public class GameManager : MonoBehaviour
             }
         }else if (cardGameObject.transform.position.x > fSideMargin)
         {
-            
+            direction = "right";
         }
         else if (cardGameObject.transform.position.x > -fSideMargin)
         {
+            direction = "none";
             textColor.a = 0;
         }
         else if (cardGameObject.transform.position.x > -fSideTrigger)
         {
-            
+            direction = "left";
         }
         else
         {
+            direction = "left";
             if (Input.GetMouseButtonUp(0))
             {
                 currentCard.Left();
