@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: exem2
   m_EditorClassIdentifier: 
   cardID: 0
-  dialogueText: blablalabla
+  dialogueText: haha dialogo muito louco WIP2
   cardName: Generic Action
   sprite: 1
-  respostaEsquerda: esquerda
-  respostaDireita: direita
-  mIconTeacherLeft: -50
-  mIconStudentsLeft: -50
-  mIconParentsLeft: -50
-  mIconMoneyLeft: -50
-  mIconTeacherRight: 50
-  mIconStudentsRight: 50
-  mIconParentsRight: 50
-  mIconMoneyRight: 50
+  respostaEsquerda: Respotas(ESQUERDA)
+  respostaDireita: Respotas(dIREITA)
+  mIconTeacherLeft: 10
+  mIconStudentsLeft: 10
+  mIconParentsLeft: 10
+  mIconMoneyLeft: 10
+  mIconTeacherRight: -20
+  mIconStudentsRight: -20
+  mIconParentsRight: -20
+  mIconMoneyRight: -20

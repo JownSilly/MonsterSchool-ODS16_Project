@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 261fadf7290b1154a9517cb48cb44157, type: 3}
-  m_Name: exem3
+  m_Name: exem 4
   m_EditorClassIdentifier: 
   cardID: 0
-  dialogueText: haha dialogo muito louco WIP3
-  cardName: bauashasdas
-  sprite: 2
-  respostaEsquerda: Respotas(ESQUERDA)
-  respostaDireita: Respotas(direita)
-  mIconTeacherLeft: 50
-  mIconStudentsLeft: 0
-  mIconParentsLeft: 20
-  mIconMoneyLeft: 50
-  mIconTeacherRight: -30
-  mIconStudentsRight: -30
-  mIconParentsRight: 0
-  mIconMoneyRight: -20
+  dialogueText: "HAHA MAIS DIALOGO (o sprite \xE9 o mesmo pq \xE9 so exemplo)"
+  cardName: SADASDA
+  sprite: 0
+  respostaEsquerda: RESPOSTA(ESQUERDA)
+  respostaDireita: RESPOSTA(DIREITA)
+  mIconTeacherLeft: 0
+  mIconStudentsLeft: 30
+  mIconParentsLeft: 0
+  mIconMoneyLeft: 30
+  mIconTeacherRight: -25
+  mIconStudentsRight: 0
+  mIconParentsRight: -25
+  mIconMoneyRight: 0

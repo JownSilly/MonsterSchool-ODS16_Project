@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -23,11 +24,13 @@ public class GameManager : MonoBehaviour
     public float fSideMargin;
     public float fSideTrigger;
     public Color textColor;
+    public Color opacityQuote;
     float alphaText;
     public float divideValue;
     Vector3 pos;
     //UI
     public TMP_Text actionQuote;
+    public SpriteRenderer backgroundActionQuote;
     public TMP_Text display;
     public TMP_Text characterDialogue;
     public string direction;
@@ -48,9 +51,11 @@ public class GameManager : MonoBehaviour
     void UpdateDialogue()
     {
         actionQuote.color = textColor;
+        backgroundActionQuote.color = opacityQuote;
         if(cardGameObject.transform.position.x < 0)
         {
             actionQuote.text = leftQuote;
+
         }
         else
         {
@@ -61,6 +66,7 @@ public class GameManager : MonoBehaviour
     {
         //Logica de valores de gerenciamento
         textColor.a = Mathf.Min((Mathf.Abs(cardGameObject.transform.position.x) - fSideMargin) / divideValue, 1);
+        opacityQuote.a = Mathf.Min((Mathf.Abs(cardGameObject.transform.position.x) - fSideMargin) / divideValue, .5f);
         //Dialogo Texto
         if (cardGameObject.transform.position.x > fSideTrigger)
         {
@@ -77,6 +83,7 @@ public class GameManager : MonoBehaviour
         else if (cardGameObject.transform.position.x > -fSideMargin)
         {
             direction = "none";
+            opacityQuote.a = 0;
             textColor.a = 0;
         }
         else if (cardGameObject.transform.position.x > -fSideTrigger)
@@ -123,7 +130,9 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            Debug.LogError("Todos os numero foram sorteados");
+            mainCardController.GetComponent<BoxCollider2D>().enabled = false;
+            display.text = "Todos os numero foram sorteados - cena seguinte em desenvolvimento";
+            
         }   
     }
     public int RandomNumb()
