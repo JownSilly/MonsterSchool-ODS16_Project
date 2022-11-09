@@ -13,7 +13,6 @@ public class GameManager : MonoBehaviour
     public static int moneyIconM;
     public static int maxValue = 100;
     public int minValue = 0;
-    
     //GAMEOBJECTS
     public ResourceManager resourceManager;
     public GameObject cardGameObject;
@@ -37,9 +36,14 @@ public class GameManager : MonoBehaviour
     private string rightQuote;
     public Card currentCard;
     public Card testCard;
+    //Numero aleatorio
+    public int randomNumber;
+    public int rMinValue;
+    public int rMaxValue;
+    public List<int> repeatedNumber = new List<int>();
     void Start()
     {
-        LoadCard(testCard);
+        NewCard();
     }
     void UpdateDialogue()
     {
@@ -56,8 +60,6 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         //Logica de valores de gerenciamento
-
-
         textColor.a = Mathf.Min((Mathf.Abs(cardGameObject.transform.position.x) - fSideMargin) / divideValue, 1);
         //Dialogo Texto
         if (cardGameObject.transform.position.x > fSideTrigger)
@@ -103,9 +105,8 @@ public class GameManager : MonoBehaviour
             cardGameObject.transform.position = Vector2.MoveTowards(cardGameObject.transform.position, new Vector2(0, 0), fMovingSpeed);
         }
         //UI
-        display.text = ""+ textColor.a;
+        //display.text = ""+ textColor.a;
     }
-
     public void LoadCard(Card card)
     {
         cardSpriteRenderer.sprite = resourceManager.sprites[(int)card.sprite];
@@ -116,7 +117,32 @@ public class GameManager : MonoBehaviour
     }
     public void NewCard()
     {
-        int rollDice = Random.Range(0, resourceManager.cards.Length);
-        LoadCard(resourceManager.cards[rollDice]);
+        randomNumber = RandomNumb();
+        if (randomNumber >= 0) {
+            LoadCard(resourceManager.cards[randomNumber]);
+        }
+        else
+        {
+            Debug.LogError("Todos os numero foram sorteados");
+        }   
+    }
+    public int RandomNumb()
+    {
+        if(Mathf.Abs(resourceManager.cards.Length - rMinValue)> repeatedNumber.Count)
+        {
+            while (true)
+            {
+                int random = Random.Range(rMinValue, resourceManager.cards.Length);
+                if (!repeatedNumber.Contains(random))
+                {
+                    repeatedNumber.Add(random);
+                    return random;
+                }
+            }
+        }
+        else
+        {
+            return -1;
+        }
     }
 }
