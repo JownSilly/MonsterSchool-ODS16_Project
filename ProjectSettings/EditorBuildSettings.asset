@@ -4,8 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/TesteSpritesBasicFunction.unity
-    guid: 46b9d3469cc7d05489a66b09defacf9d
+  m_Scenes: []
   m_configObjects: {}
