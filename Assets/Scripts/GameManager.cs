@@ -34,6 +34,8 @@ public class GameManager : MonoBehaviour
     public TMP_Text display;
     public TMP_Text characterDialogue;
     public string direction;
+    public string isNewCard;
+     
     //Variaveis de Cartas
     private string leftQuote;
     private string rightQuote;
@@ -46,6 +48,7 @@ public class GameManager : MonoBehaviour
     public List<int> repeatedNumber = new List<int>();
     void Start()
     {
+       
         NewCard();
     }
     void UpdateDialogue()
@@ -64,6 +67,7 @@ public class GameManager : MonoBehaviour
     }
     void Update()
     {
+        
         //Logica de valores de gerenciamento
         textColor.a = Mathf.Min((Mathf.Abs(cardGameObject.transform.position.x) - fSideMargin) / divideValue, 1);
         opacityQuote.a = Mathf.Min((Mathf.Abs(cardGameObject.transform.position.x) - fSideMargin) / divideValue, .5f);
@@ -75,6 +79,7 @@ public class GameManager : MonoBehaviour
             {
                 currentCard.Right();
                 NewCard();
+                isNewCard = "hasRight";
             }
         }else if (cardGameObject.transform.position.x > fSideMargin)
         {
@@ -85,6 +90,7 @@ public class GameManager : MonoBehaviour
             direction = "none";
             opacityQuote.a = 0;
             textColor.a = 0;
+            isNewCard = "none";
         }
         else if (cardGameObject.transform.position.x > -fSideTrigger)
         {
@@ -97,6 +103,7 @@ public class GameManager : MonoBehaviour
             {
                 currentCard.Left();
                 NewCard();
+                isNewCard = "hasLeft";
             }
         }
         UpdateDialogue();
@@ -121,6 +128,7 @@ public class GameManager : MonoBehaviour
         rightQuote = card.respostaDireita;
         currentCard = card;
         characterDialogue.text = card.dialogueText;
+        
     }
     public void NewCard()
     {
@@ -133,7 +141,8 @@ public class GameManager : MonoBehaviour
             mainCardController.GetComponent<BoxCollider2D>().enabled = false;
             display.text = "Todos os numero foram sorteados - cena seguinte em desenvolvimento";
             
-        }   
+        }
+        
     }
     public int RandomNumb()
     {
