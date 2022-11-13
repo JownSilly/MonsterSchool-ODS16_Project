@@ -40,7 +40,7 @@ public class TimerCountDown : MonoBehaviour
             {
                 // SE O CONTADOR ATINGIR 0, SERA TOMADA UMA DECISÃO ALEATORIA
                 currentTime = 0;
-                int random = Random.Range(1, 2);
+                int random = Random.Range(1, 3);
                 if (random == 1)
                 {
                     gameManager.currentCard.Left();
@@ -53,9 +53,6 @@ public class TimerCountDown : MonoBehaviour
                     gameManager.NewCard();
                     currentTime = startingTime;
                 }
-
-
-
             }
         }
         else
