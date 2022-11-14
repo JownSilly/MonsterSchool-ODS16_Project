@@ -25,18 +25,23 @@ public class TimerCountDown : MonoBehaviour
             currentTime = startingTime;
         }
             //Contador
-            currentTime -= 1 * Time.deltaTime;
-            countDownText.text = currentTime.ToString("0");
-            if (currentTime <= 3)
-            {
-                countDownText.color = colorText;
-            }
-            else
-            {
-                countDownText.color = standardColorText;
-            }
+            
         if (gameManager.randomNumber >=0) {
-            if (currentTime <= 0)
+            
+            if(currentTime > 0)
+            {
+                currentTime -= 1 * Time.deltaTime;
+                countDownText.text = currentTime.ToString("0");
+                if (currentTime <= 3)
+                {
+                    countDownText.color = colorText;
+                }
+                else
+                {
+                    countDownText.color = standardColorText;
+                }
+            }
+            else if(currentTime <= 0)
             {
                 // SE O CONTADOR ATINGIR 0, SERA TOMADA UMA DECISÃO ALEATORIA
                 currentTime = 0;
@@ -57,6 +62,7 @@ public class TimerCountDown : MonoBehaviour
         }
         else
         {
+            //AS CARTAS ACABARAM, NECESSÁRIA A CHAMADA DE CENA DE FEEDBACK DE DESENVOLVIMENTO 
 
         }
         

@@ -35,12 +35,14 @@ public class GameManager : MonoBehaviour
     public TMP_Text characterDialogue;
     public string direction;
     public string isNewCard;
-     
+    public TMP_Text daysText;
+
     //Variaveis de Cartas
     private string leftQuote;
     private string rightQuote;
     public Card currentCard;
     public Card testCard;
+    public int days;
     //Numero aleatorio
     public int randomNumber;
     public int rMinValue;
@@ -135,6 +137,8 @@ public class GameManager : MonoBehaviour
         randomNumber = RandomNumb();
         if (randomNumber >= 0) {
             LoadCard(resourceManager.cards[randomNumber]);
+            days++;
+            daysText.text = days.ToString("0");
         }
         else
         {
