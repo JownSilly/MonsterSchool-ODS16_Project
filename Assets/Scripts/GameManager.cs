@@ -8,10 +8,10 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     //Gerenciamento Escola
-    public static int teacherIconM;
-    public static int studentsIconM;
-    public static int parentsIconM;
-    public static int moneyIconM;
+    public static int teacherIconM =50;
+    public static int studentsIconM = 50;
+    public static int parentsIconM = 50;
+    public static int moneyIconM = 50;
     public static int maxValue = 100;
     public int minValue = 0;
     //GAMEOBJECTS
@@ -80,6 +80,7 @@ public class GameManager : MonoBehaviour
             if (Input.GetMouseButtonUp(0))
             {
                 currentCard.Right();
+                GameOvers();
                 NewCard();
                 isNewCard = "hasRight";
             }
@@ -104,6 +105,7 @@ public class GameManager : MonoBehaviour
             if (Input.GetMouseButtonUp(0))
             {
                 currentCard.Left();
+                GameOvers();
                 NewCard();
                 isNewCard = "hasLeft";
             }
@@ -165,6 +167,25 @@ public class GameManager : MonoBehaviour
         else
         {
             return -1;
+        }
+    }
+    // Verifica o Fim do Jogo para Aquele que Zerarem algum dos Atributos
+    public void GameOvers()
+    {
+        if (teacherIconM <= 0)
+        {
+            SceneManager.LoadScene("Menu");
+        } else if (studentsIconM <= 0)
+        {
+            SceneManager.LoadScene("Menu");
+        }
+        else if (parentsIconM <= 0)
+        {
+            SceneManager.LoadScene("Menu");
+        }
+        else if (moneyIconM <= 0)
+        {
+            SceneManager.LoadScene("Menu");
         }
     }
 }

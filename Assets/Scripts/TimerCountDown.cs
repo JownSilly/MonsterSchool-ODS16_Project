@@ -49,12 +49,14 @@ public class TimerCountDown : MonoBehaviour
                 if (random == 1)
                 {
                     gameManager.currentCard.Left();
+                    gameManager.GameOvers();
                     gameManager.NewCard();
                     currentTime = startingTime;
                 }
                 else
                 {
                     gameManager.currentCard.Right();
+                    gameManager.GameOvers();
                     gameManager.NewCard();
                     currentTime = startingTime;
                 }
