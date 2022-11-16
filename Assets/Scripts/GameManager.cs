@@ -8,10 +8,10 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     //Gerenciamento Escola
-    public static int teacherIconM =50;
-    public static int studentsIconM = 50;
-    public static int parentsIconM = 50;
-    public static int moneyIconM = 50;
+    public static int teacherIconM;
+    public static int studentsIconM;
+    public static int parentsIconM;
+    public static int moneyIconM;
     public static int maxValue = 100;
     public int minValue = 0;
     //GAMEOBJECTS
@@ -50,7 +50,10 @@ public class GameManager : MonoBehaviour
     public List<int> repeatedNumber = new List<int>();
     void Start()
     {
-       
+        teacherIconM = 50;
+        studentsIconM = 50;
+        parentsIconM = 50;
+        moneyIconM = 50;
         NewCard();
     }
     void UpdateDialogue()
