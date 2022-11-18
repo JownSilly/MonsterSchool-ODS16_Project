@@ -15,7 +15,7 @@ MonoBehaviour:
   cardID: 0
   dialogueText: haha dialogo muito louco WIP1
   cardName: Generic exem1 action
-  sprite: 0
+  sprite: 1
   respostaEsquerda: Respota (Esquerda)
   respostaDireita: Respota (Direita)
   mIconTeacherLeft: 20

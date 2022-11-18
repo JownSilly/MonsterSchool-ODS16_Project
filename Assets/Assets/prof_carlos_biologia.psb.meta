@@ -104,7 +104,7 @@ ScriptedImporter:
       y: 659
       width: 637
       height: 248
-    spriteID: 2e9fae811f152824f9d654f60ef6d1a6
+    spriteID: cfd0aa3aced42d3488c904062d0bab81
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -126,7 +126,7 @@ ScriptedImporter:
       y: 659
       width: 85
       height: 125
-    spriteID: 9302a295c720c41499cb1bd970feccc6
+    spriteID: a4d9c20cc7ea84e4b9166d367c2ffd62
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -148,7 +148,7 @@ ScriptedImporter:
       y: 4
       width: 572
       height: 647
-    spriteID: 03dcafd0e30a31f4f8c2d54aeaf3d564
+    spriteID: b89024ec7bb2d1f439e6c109b639a2da
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 659
       width: 251
       height: 259
-    spriteID: cfd0aa3aced42d3488c904062d0bab81
+    spriteID: df422222abd854345a6b0c98e1481a87
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -241,15 +241,15 @@ ScriptedImporter:
   spriteCategoryList:
     categories: []
   spritePackingTag: 
-  resliceFromLayer: 0
+  resliceFromLayer: 1
   mosaicPSDLayers: []
   rigPSDLayers:
   - name: Professor Claudio de Biologia
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 876119b56666117489807a26bfec7eff
-    layerID: 494
+    spriteID: c25b67a48cecbc543835fa0f1aaaab73
+    layerID: 491
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
@@ -258,8 +258,8 @@ ScriptedImporter:
     spriteName: Bigode
     isGroup: 0
     parentIndex: 0
-    spriteID: 2e9fae811f152824f9d654f60ef6d1a6
-    layerID: 493
+    spriteID: cfd0aa3aced42d3488c904062d0bab81
+    layerID: 490
     mosaicPosition: {x: 4, y: 659}
     flatten: 0
     isImported: 1
@@ -268,8 +268,8 @@ ScriptedImporter:
     spriteName: Olho
     isGroup: 0
     parentIndex: 0
-    spriteID: 9302a295c720c41499cb1bd970feccc6
-    layerID: 492
+    spriteID: a4d9c20cc7ea84e4b9166d367c2ffd62
+    layerID: 489
     mosaicPosition: {x: 908, y: 659}
     flatten: 0
     isImported: 1
@@ -278,8 +278,8 @@ ScriptedImporter:
     spriteName: Rosto
     isGroup: 0
     parentIndex: 0
-    spriteID: 03dcafd0e30a31f4f8c2d54aeaf3d564
-    layerID: 491
+    spriteID: b89024ec7bb2d1f439e6c109b639a2da
+    layerID: 488
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1
@@ -288,8 +288,8 @@ ScriptedImporter:
     spriteName: Chapeu
     isGroup: 0
     parentIndex: 0
-    spriteID: cfd0aa3aced42d3488c904062d0bab81
-    layerID: 490
+    spriteID: df422222abd854345a6b0c98e1481a87
+    layerID: 487
     mosaicPosition: {x: 649, y: 659}
     flatten: 0
     isImported: 1
@@ -298,43 +298,13 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
-    spriteID: 16fc4120437930e4bab35a47aae513c3
-    layerID: 489
+    spriteID: a8e1fc130f15fc84a999d576839e2002
+    layerID: 486
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
     isVisible: 0
   - name: Camada 27
-    spriteName: 
-    isGroup: 0
-    parentIndex: 5
-    spriteID: b89024ec7bb2d1f439e6c109b639a2da
-    layerID: 488
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 1
-  - name: Camada 17 copiar
-    spriteName: 
-    isGroup: 0
-    parentIndex: 5
-    spriteID: df422222abd854345a6b0c98e1481a87
-    layerID: 487
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 1
-  - name: Camada 15 copiar
-    spriteName: 
-    isGroup: 0
-    parentIndex: 5
-    spriteID: 50db97e059c9cfe41bbe3a5cf91822d4
-    layerID: 486
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 1
-  - name: Camada 14 copiar
     spriteName: 
     isGroup: 0
     parentIndex: 5
@@ -344,12 +314,42 @@ ScriptedImporter:
     flatten: 0
     isImported: 0
     isVisible: 1
+  - name: Camada 17 copiar
+    spriteName: 
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 807169202de287c4bb025a205c8ae7ad
+    layerID: 484
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Camada 15 copiar
+    spriteName: 
+    isGroup: 0
+    parentIndex: 5
+    spriteID: cb586f476740d98449b3251bf17ddc1c
+    layerID: 483
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Camada 14 copiar
+    spriteName: 
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 9c84178100c1b814db83a42b29b9f5ea
+    layerID: 482
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
   - name: Professor Plankton copiar
     spriteName: 
     isGroup: 1
     parentIndex: 5
-    spriteID: a23b755606e499a499c62989fa2cc67b
-    layerID: 484
+    spriteID: 72c17d3d40406d142b073e622c12ee36
+    layerID: 481
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
@@ -358,8 +358,8 @@ ScriptedImporter:
     spriteName: 
     isGroup: 0
     parentIndex: 10
-    spriteID: cb586f476740d98449b3251bf17ddc1c
-    layerID: 483
+    spriteID: e559446b01a56774597d4d44e7990dfa
+    layerID: 480
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
@@ -368,8 +368,8 @@ ScriptedImporter:
     spriteName: 
     isGroup: 0
     parentIndex: 10
-    spriteID: 9c84178100c1b814db83a42b29b9f5ea
-    layerID: 482
+    spriteID: e601d41d61943a74db05938be00808df
+    layerID: 479
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
@@ -378,8 +378,8 @@ ScriptedImporter:
     spriteName: 
     isGroup: 0
     parentIndex: 10
-    spriteID: 36baf623999467345a10e2d5149aab1f
-    layerID: 481
+    spriteID: f91daa7d5ae13984e8f731e680c8aa40
+    layerID: 478
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
@@ -388,8 +388,8 @@ ScriptedImporter:
     spriteName: 
     isGroup: 0
     parentIndex: -1
-    spriteID: f69c6b5671e24c44b8b1a3146d16488f
-    layerID: 477
+    spriteID: 90145c793c5933e45afcac3b070c7808
+    layerID: 474
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0

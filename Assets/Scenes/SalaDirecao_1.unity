@@ -175,7 +175,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 2
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -771,6 +771,7 @@ MonoBehaviour:
   cardGameObject: {fileID: 8586457877266571976}
   cardSprite: {fileID: 6428260166427021812}
   mainCardController: {fileID: 8586457877266571977}
+  currentSpriteObject: {fileID: 0}
   fMovingSpeed: 5
   fSideMargin: 1
   fSideTrigger: 2
@@ -827,6 +828,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardSpritePrefab:
   - {fileID: 1456110225431300979, guid: dff6e7a2c3d69bf46924d43a26d96639, type: 3}
+  - {fileID: 921538624081994808, guid: f81bf53e73b7f624daa958a11de2aec1, type: 3}
+  - {fileID: 2493297502990524845, guid: 215ae94b9ae51c447bad4948075e9335, type: 3}
   cards:
   - {fileID: 11400000, guid: 5951ae0c824e094409cae4a402452424, type: 2}
   - {fileID: 11400000, guid: d235c7276b3bea04bb77b7514e0f9720, type: 2}
@@ -960,7 +963,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 2
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
