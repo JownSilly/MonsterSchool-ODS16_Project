@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
     //GAMEOBJECTS
     public ResourceManager resourceManager;
     public GameObject cardGameObject;
-    public SpriteRenderer cardSpriteRenderer;
+    public GameObject cardSprite;
     public CardController mainCardController;
     //Variaveis Ajustaveis
     public float fMovingSpeed;
@@ -83,7 +83,7 @@ public class GameManager : MonoBehaviour
             if (Input.GetMouseButtonUp(0))
             {
                 currentCard.Right();
-                GameOvers();
+                //GameOvers();
                 NewCard();
                 isNewCard = "hasRight";
             }
@@ -108,7 +108,7 @@ public class GameManager : MonoBehaviour
             if (Input.GetMouseButtonUp(0))
             {
                 currentCard.Left();
-                GameOvers();
+                //GameOvers();
                 NewCard();
                 isNewCard = "hasLeft";
             }
@@ -130,7 +130,9 @@ public class GameManager : MonoBehaviour
     }
     public void LoadCard(Card card)
     {
-        cardSpriteRenderer.sprite = resourceManager.sprites[(int)card.sprite];
+        var currentSpriteObject = Instantiate(resourceManager.cardSpritePrefab[(int)card.sprite], new Vector3(cardSprite.transform.parent.position.x, cardSprite.transform.parent.position.y, 0), Quaternion.identity);
+        currentSpriteObject.transform.SetParent(cardSprite.transform.parent);
+        currentSpriteObject.transform.localScale = new Vector3(1, 1, 1);
         leftQuote = card.respostaEsquerda;
         rightQuote = card.respostaDireita;
         currentCard = card;
@@ -173,7 +175,7 @@ public class GameManager : MonoBehaviour
         }
     }
     // Verifica o Fim do Jogo para Aquele que Zerarem algum dos Atributos
-    public void GameOvers()
+    /*public void GameOvers()
     {
         if (teacherIconM <= 0)
         {
@@ -191,4 +193,5 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene("Menu");
         }
     }
+    */
 }

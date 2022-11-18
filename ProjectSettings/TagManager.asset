@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 1671492993
+    locked: 0
+  - name: Cards_Background
+    uniqueID: 4019264291
+    locked: 0
+  - name: Cards_Sprite_Personagens
+    uniqueID: 390131433
+    locked: 0
+  - name: UI_Card
+    uniqueID: 1479533721
+    locked: 0

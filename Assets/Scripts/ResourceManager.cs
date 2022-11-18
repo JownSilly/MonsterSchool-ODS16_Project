@@ -4,12 +4,9 @@ using UnityEngine;
 
 public class ResourceManager : MonoBehaviour
 {
-    public Sprite[] sprites;
+    public GameObject[] cardSpritePrefab;
     public Card[] cards;
     
-    
-
-    // Update is called once per frame
     void Update()
     {
         

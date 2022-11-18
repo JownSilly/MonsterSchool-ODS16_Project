@@ -15,7 +15,7 @@ MonoBehaviour:
   cardID: 0
   dialogueText: haha dialogo muito louco WIP3
   cardName: bauashasdas
-  sprite: 2
+  sprite: 0
   respostaEsquerda: Respotas(ESQUERDA)
   respostaDireita: Respotas(direita)
   mIconTeacherLeft: 50
