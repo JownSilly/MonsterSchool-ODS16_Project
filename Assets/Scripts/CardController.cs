@@ -31,7 +31,7 @@ public class CardController : MonoBehaviour
 
 public enum CardSprite
 {
-    MAN,
-    WOMAN,
-    KNIGHT
+    ProfessorCarlos_Biologia,
+    ProfessoraMarta_Historia,
+    AlunoJuninho_ZeFoguinho
 }

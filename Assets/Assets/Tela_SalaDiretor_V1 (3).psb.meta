@@ -574,6 +574,16 @@ ScriptedImporter:
   resliceFromLayer: 0
   mosaicPSDLayers: []
   rigPSDLayers:
+  - name: Prancheta
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6b740e35a2f6d4d4d9f98e4a222ec363
+    layerID: 308
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Gride
     spriteName: 
     isGroup: 1
@@ -587,7 +597,7 @@ ScriptedImporter:
   - name: Camada 4
     spriteName: 
     isGroup: 0
-    parentIndex: 0
+    parentIndex: 1
     spriteID: 49b58bad804036a4586564981cf29e95
     layerID: 5
     mosaicPosition: {x: 0, y: 0}
@@ -597,7 +607,7 @@ ScriptedImporter:
   - name: Camada 3
     spriteName: 
     isGroup: 0
-    parentIndex: 0
+    parentIndex: 1
     spriteID: 26670e727142a9d45b8b7826a90ade91
     layerID: 4
     mosaicPosition: {x: 0, y: 0}
@@ -607,7 +617,7 @@ ScriptedImporter:
   - name: Camada 5
     spriteName: 
     isGroup: 0
-    parentIndex: 0
+    parentIndex: 1
     spriteID: f889a6eba6ca52e408a84e6437db43a3
     layerID: 6
     mosaicPosition: {x: 0, y: 0}
@@ -627,7 +637,7 @@ ScriptedImporter:
   - name: Relogio
     spriteName: Relogio
     isGroup: 0
-    parentIndex: 4
+    parentIndex: 5
     spriteID: 138584b46a6f08b45be61ded2590d504
     layerID: 303
     mosaicPosition: {x: 1128, y: 7259}
@@ -637,7 +647,7 @@ ScriptedImporter:
   - name: Calendario
     spriteName: Calendario
     isGroup: 0
-    parentIndex: 4
+    parentIndex: 5
     spriteID: 53a08aff6d716d14bbf5af2c32222f07
     layerID: 302
     mosaicPosition: {x: 559, y: 7259}
@@ -647,7 +657,7 @@ ScriptedImporter:
   - name: Cartas
     spriteName: 
     isGroup: 0
-    parentIndex: 4
+    parentIndex: 5
     spriteID: 978f63b593303024fb4c36dcb82cd03b
     layerID: 264
     mosaicPosition: {x: 0, y: 0}
@@ -657,7 +667,7 @@ ScriptedImporter:
   - name: Folhas
     spriteName: 
     isGroup: 1
-    parentIndex: 4
+    parentIndex: 5
     spriteID: 0db549efe8bf11b409af3482ce9966d2
     layerID: 289
     mosaicPosition: {x: 0, y: 0}
@@ -667,7 +677,7 @@ ScriptedImporter:
   - name: Camada 50
     spriteName: Camada 50
     isGroup: 0
-    parentIndex: 8
+    parentIndex: 9
     spriteID: 4f8fcc192625e254fa2773eca91a555b
     layerID: 288
     mosaicPosition: {x: 3456, y: 6816}
@@ -677,7 +687,7 @@ ScriptedImporter:
   - name: Camada 49
     spriteName: Camada 49
     isGroup: 0
-    parentIndex: 8
+    parentIndex: 9
     spriteID: 985b72bd45e97114f91c7d9b6a00e5be
     layerID: 287
     mosaicPosition: {x: 3456, y: 6595}
@@ -687,7 +697,7 @@ ScriptedImporter:
   - name: Camada 48
     spriteName: Camada 48
     isGroup: 0
-    parentIndex: 8
+    parentIndex: 9
     spriteID: 3e6c8abdfca0516488c0db2f396c581c
     layerID: 284
     mosaicPosition: {x: 2167, y: 7259}
@@ -697,7 +707,7 @@ ScriptedImporter:
   - name: Camada 47
     spriteName: Camada 47
     isGroup: 0
-    parentIndex: 8
+    parentIndex: 9
     spriteID: 153d2e521b388d24f86543ad3fdb2a9d
     layerID: 283
     mosaicPosition: {x: 1719, y: 7259}
@@ -707,7 +717,7 @@ ScriptedImporter:
   - name: Camada 32
     spriteName: 
     isGroup: 0
-    parentIndex: 4
+    parentIndex: 5
     spriteID: e0b4e4775096cab40b4a25b065263c97
     layerID: 212
     mosaicPosition: {x: 0, y: 0}
@@ -717,7 +727,7 @@ ScriptedImporter:
   - name: Cortina
     spriteName: Cortina
     isGroup: 0
-    parentIndex: 4
+    parentIndex: 5
     spriteID: c278407abd82dec47a3ec12cafeb7300
     layerID: 266
     mosaicPosition: {x: 4, y: 4340}
@@ -727,7 +737,7 @@ ScriptedImporter:
   - name: Camada 28
     spriteName: Camada 28
     isGroup: 0
-    parentIndex: 4
+    parentIndex: 5
     spriteID: c53139ce8cfaf4744aad9b84ab136019
     layerID: 208
     mosaicPosition: {x: 3852, y: 4}
@@ -737,7 +747,7 @@ ScriptedImporter:
   - name: Planta
     spriteName: Planta
     isGroup: 0
-    parentIndex: 4
+    parentIndex: 5
     spriteID: 831ef095a3b9aed46a3c0e1bb0d706f5
     layerID: 52
     mosaicPosition: {x: 3052, y: 4340}
@@ -747,7 +757,7 @@ ScriptedImporter:
   - name: Livro
     spriteName: 
     isGroup: 1
-    parentIndex: 4
+    parentIndex: 5
     spriteID: 5ddc36642bed8c2489b4a9170b406978
     layerID: 250
     mosaicPosition: {x: 0, y: 0}
@@ -757,7 +767,7 @@ ScriptedImporter:
   - name: Camada 40
     spriteName: Camada 40
     isGroup: 0
-    parentIndex: 17
+    parentIndex: 18
     spriteID: 4a96c4a0d71e7f24caa887cc7a236507
     layerID: 249
     mosaicPosition: {x: 3747, y: 6816}
@@ -767,7 +777,7 @@ ScriptedImporter:
   - name: Armario Menor
     spriteName: Armario Menor
     isGroup: 0
-    parentIndex: 17
+    parentIndex: 18
     spriteID: 211d058e53fb0f34696ef8580631d4d6
     layerID: 45
     mosaicPosition: {x: 4, y: 7259}
@@ -777,7 +787,7 @@ ScriptedImporter:
   - name: Armario Maior
     spriteName: 
     isGroup: 1
-    parentIndex: 4
+    parentIndex: 5
     spriteID: 90ea1272ccfe62943977348c1b7b884d
     layerID: 163
     mosaicPosition: {x: 0, y: 0}
@@ -787,7 +797,7 @@ ScriptedImporter:
   - name: Camada 19
     spriteName: Camada 19
     isGroup: 0
-    parentIndex: 20
+    parentIndex: 21
     spriteID: b182fd8af04621a45a1ba1181663201a
     layerID: 162
     mosaicPosition: {x: 3852, y: 1412}
@@ -797,7 +807,7 @@ ScriptedImporter:
   - name: Camada 18
     spriteName: Camada 18
     isGroup: 0
-    parentIndex: 20
+    parentIndex: 21
     spriteID: 0506b9b8996452143810a4d94c1cfbc1
     layerID: 161
     mosaicPosition: {x: 4630, y: 4}
@@ -807,7 +817,7 @@ ScriptedImporter:
   - name: Caixa2
     spriteName: Caixa2
     isGroup: 0
-    parentIndex: 4
+    parentIndex: 5
     spriteID: f6baed988f6df9f44812f58392624209
     layerID: 248
     mosaicPosition: {x: 4, y: 7823}
@@ -817,7 +827,7 @@ ScriptedImporter:
   - name: Caixa1
     spriteName: Caixa1
     isGroup: 0
-    parentIndex: 4
+    parentIndex: 5
     spriteID: bfa00fac994f65c41b1b37d586bb26fe
     layerID: 245
     mosaicPosition: {x: 2580, y: 7259}
@@ -827,7 +837,7 @@ ScriptedImporter:
   - name: Mesa
     spriteName: Mesa
     isGroup: 0
-    parentIndex: 4
+    parentIndex: 5
     spriteID: 25f1d9d291407e24da225283794e0f66
     layerID: 143
     mosaicPosition: {x: 4, y: 6595}
@@ -837,7 +847,7 @@ ScriptedImporter:
   - name: Sombra
     spriteName: Sombra
     isGroup: 0
-    parentIndex: 4
+    parentIndex: 5
     spriteID: 360728276d7e4e240b1bd243856ef993
     layerID: 297
     mosaicPosition: {x: 4, y: 5653}
@@ -847,7 +857,7 @@ ScriptedImporter:
   - name: Sala
     spriteName: Sala
     isGroup: 0
-    parentIndex: 4
+    parentIndex: 5
     spriteID: 65571bac689068f4c9ff562c5cd08d16
     layerID: 165
     mosaicPosition: {x: 4, y: 4}

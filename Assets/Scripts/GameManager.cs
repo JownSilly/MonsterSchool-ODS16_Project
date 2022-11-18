@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
     public GameObject cardGameObject;
     public GameObject cardSprite;
     public CardController mainCardController;
+    public GameObject currentSpriteObject;
     //Variaveis Ajustaveis
     public float fMovingSpeed;
     public float fSideMargin;
@@ -84,6 +85,7 @@ public class GameManager : MonoBehaviour
             {
                 currentCard.Right();
                 //GameOvers();
+                DestroyImmediate(currentSpriteObject);
                 NewCard();
                 isNewCard = "hasRight";
             }
@@ -109,6 +111,7 @@ public class GameManager : MonoBehaviour
             {
                 currentCard.Left();
                 //GameOvers();
+                DestroyImmediate(currentSpriteObject);
                 NewCard();
                 isNewCard = "hasLeft";
             }
@@ -130,7 +133,7 @@ public class GameManager : MonoBehaviour
     }
     public void LoadCard(Card card)
     {
-        var currentSpriteObject = Instantiate(resourceManager.cardSpritePrefab[(int)card.sprite], new Vector3(cardSprite.transform.parent.position.x, cardSprite.transform.parent.position.y, 0), Quaternion.identity);
+        currentSpriteObject = Instantiate(resourceManager.cardSpritePrefab[(int)card.sprite], new Vector3(cardSprite.transform.parent.position.x, cardSprite.transform.parent.position.y, 0), Quaternion.identity);
         currentSpriteObject.transform.SetParent(cardSprite.transform.parent);
         currentSpriteObject.transform.localScale = new Vector3(1, 1, 1);
         leftQuote = card.respostaEsquerda;
