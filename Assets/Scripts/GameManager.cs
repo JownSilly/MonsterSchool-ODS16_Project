@@ -148,7 +148,7 @@ public class GameManager : MonoBehaviour
         if (randomNumber >= 0) {
             LoadCard(resourceManager.cards[randomNumber]);
             days++;
-            daysText.text = days.ToString("0");
+            daysText.text = days.ToString("00");
         }
         else
         {

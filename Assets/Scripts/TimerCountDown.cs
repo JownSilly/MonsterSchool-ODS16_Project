@@ -31,7 +31,7 @@ public class TimerCountDown : MonoBehaviour
             if(currentTime > 0)
             {
                 currentTime -= 1 * Time.deltaTime;
-                countDownText.text = currentTime.ToString("0");
+                countDownText.text = "00:"+ currentTime.ToString("00");
                 if (currentTime <= 3)
                 {
                     countDownText.color = colorText;
