@@ -8,10 +8,12 @@ public class MenuManager : MonoBehaviour
   [SerializeField] private int indice;
   [SerializeField] private GameObject Painel_Menu;
   [SerializeField] private GameObject Painel_opcoes;
+    [SerializeField] private LevelChanger levelChanger;
+                   public bool isClicked;
     public void Comecar()
     {
-        SceneManager.LoadScene(indice);
-    }
+        levelChanger.FadeToLevel(1);
+            }
 
     public void Abrir_opcoes()
     {
