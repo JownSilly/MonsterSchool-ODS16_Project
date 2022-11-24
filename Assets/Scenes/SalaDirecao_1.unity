@@ -767,6 +767,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minValue: 0
+  levelChanger: {fileID: 1136449168}
   resourceManager: {fileID: 679373978}
   cardGameObject: {fileID: 8586457877266571976}
   cardSprite: {fileID: 6428260166427021812}
@@ -1349,6 +1350,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1697159161048707478, guid: 97bfed61c2a17d745a9d0347dcc83a7a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1697159161103645571, guid: 97bfed61c2a17d745a9d0347dcc83a7a, type: 3}
       propertyPath: m_Name
       value: LevelChanger
@@ -1399,6 +1404,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97bfed61c2a17d745a9d0347dcc83a7a, type: 3}
+--- !u!114 &1136449168 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1697159161103645582, guid: 97bfed61c2a17d745a9d0347dcc83a7a, type: 3}
+  m_PrefabInstance: {fileID: 1136449167}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0df1d16758091146b52f642171ef9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1315683374
 GameObject:
   m_ObjectHideFlags: 0

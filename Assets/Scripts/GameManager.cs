@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     public static int maxValue = 100;
     public int minValue = 0;
     //GAMEOBJECTS
+    [SerializeField] private LevelChanger levelChanger;
     public ResourceManager resourceManager;
     public GameObject cardGameObject;
     public GameObject cardSprite;
@@ -153,7 +154,7 @@ public class GameManager : MonoBehaviour
         else
         {
             mainCardController.GetComponent<BoxCollider2D>().enabled = false;
-            display.text = "Todos os numero foram sorteados - cena seguinte em desenvolvimento";
+            EndLevel();
             
         }
         
@@ -175,6 +176,20 @@ public class GameManager : MonoBehaviour
         else
         {
             return -1;
+        }
+    }
+    public void EndLevel()
+    {
+        float media = (teacherIconM + studentsIconM + moneyIconM + parentsIconM) / resourceManager.cards.Length;
+        if (media < 70)
+        {
+            levelChanger.FadeToLevel(2);
+            //SceneManager.LoadScene();
+            display.text = "você tirou uma nota menor que 70, infelizmente voce perdeu [" + media;
+        }
+        else
+        {
+            display.text = "você tirou uma nota maior que 70, voce venceu o nivel [" + media;
         }
     }
     // Verifica o Fim do Jogo para Aquele que Zerarem algum dos Atributos
