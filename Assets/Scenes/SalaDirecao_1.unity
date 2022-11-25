@@ -831,11 +831,14 @@ MonoBehaviour:
   - {fileID: 1456110225431300979, guid: dff6e7a2c3d69bf46924d43a26d96639, type: 3}
   - {fileID: 921538624081994808, guid: f81bf53e73b7f624daa958a11de2aec1, type: 3}
   - {fileID: 2493297502990524845, guid: 215ae94b9ae51c447bad4948075e9335, type: 3}
+  - {fileID: 8269061174222366278, guid: 5ff738bb5e61749419885f58614840af, type: 3}
+  - {fileID: 4231684441062816498, guid: 2597865e7934f3d49a702e81f88b99e7, type: 3}
   cards:
   - {fileID: 11400000, guid: 5951ae0c824e094409cae4a402452424, type: 2}
   - {fileID: 11400000, guid: d235c7276b3bea04bb77b7514e0f9720, type: 2}
   - {fileID: 11400000, guid: 8a499afcb234faf449172aae4c9d1e18, type: 2}
   - {fileID: 11400000, guid: 40ff2cdb9c41fc041a042a1508d60962, type: 2}
+  - {fileID: 11400000, guid: 44cc66f61a09e9c4e933fa416edde2f5, type: 2}
 --- !u!1 &679488300
 GameObject:
   m_ObjectHideFlags: 0

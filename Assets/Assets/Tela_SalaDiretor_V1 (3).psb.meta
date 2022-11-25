@@ -688,7 +688,7 @@ ScriptedImporter:
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Cartas
+  - name: cardManipulator
     spriteName: Relogio
     isGroup: 0
     parentIndex: 4

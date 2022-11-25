@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 261fadf7290b1154a9517cb48cb44157, type: 3}
+  m_Name: exem5
+  m_EditorClassIdentifier: 
+  cardID: 0
+  dialogueText: hashdsahsddialoghogoo
+  cardName: professor de fisica
+  sprite: 3
+  respostaEsquerda: ESQUERDA
+  respostaDireita: DIREITA
+  mIconTeacherLeft: 20
+  mIconStudentsLeft: 10
+  mIconParentsLeft: -20
+  mIconMoneyLeft: 15
+  mIconTeacherRight: -15
+  mIconStudentsRight: 10
+  mIconParentsRight: 20
+  mIconMoneyRight: 0

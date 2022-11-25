@@ -17,7 +17,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8653719598885068355, guid: 3777844a7642f43489ac5f4cbdd1f060, type: 3}
       propertyPath: m_Name
-      value: prof_tarcia_matematica
+      value: prof_tarcia_matematica Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: -8472203631463023343, guid: 3777844a7642f43489ac5f4cbdd1f060, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8472203631463023343, guid: 3777844a7642f43489ac5f4cbdd1f060, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 390131433
       objectReference: {fileID: 0}
     - target: {fileID: -8232284482694677766, guid: 3777844a7642f43489ac5f4cbdd1f060, type: 3}
       propertyPath: m_SortingLayer
@@ -71,6 +79,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7525681045662642489, guid: 3777844a7642f43489ac5f4cbdd1f060, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -7525681045662642489, guid: 3777844a7642f43489ac5f4cbdd1f060, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 390131433
+      objectReference: {fileID: 0}
     - target: {fileID: -6804895100701543636, guid: 3777844a7642f43489ac5f4cbdd1f060, type: 3}
       propertyPath: m_SortingLayer
       value: 3
@@ -100,6 +116,14 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -1104781987254976692, guid: 3777844a7642f43489ac5f4cbdd1f060, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 390131433
+      objectReference: {fileID: 0}
+    - target: {fileID: 3850951247250785823, guid: 3777844a7642f43489ac5f4cbdd1f060, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3850951247250785823, guid: 3777844a7642f43489ac5f4cbdd1f060, type: 3}
       propertyPath: m_SortingLayerID
       value: 390131433
       objectReference: {fileID: 0}
