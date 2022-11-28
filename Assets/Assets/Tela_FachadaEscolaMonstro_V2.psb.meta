@@ -1,0 +1,772 @@
+fileFormatVersion: 2
+guid: c7ac87f9d5f33ec42993c756d089aeb0
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Camada 46
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 3774
+      height: 2124
+    spriteID: 1db6cf4af1ded7442911b549df0dc585
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
+  - name: Camada 45
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2136
+      width: 3774
+      height: 2124
+    spriteID: 9523f40d58fdd6a4e966c86196becc1f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 2136}
+    spritePosition: {x: 0, y: 0}
+  - name: Camada 43
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4268
+      width: 3774
+      height: 2124
+    spriteID: ce84c2f2d3505434ba0f3ca24e38825f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4268}
+    spritePosition: {x: 0, y: 0}
+  - name: Camada 44
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 6400
+      width: 3774
+      height: 2124
+    spriteID: b990675ebb0cb6b45b927cbc7ed6cf56
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 6400}
+    spritePosition: {x: 0, y: 0}
+  - name: Camada 42
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3786
+      y: 3644
+      width: 3774
+      height: 1387
+    spriteID: abefc3934f866f94fa0507aded9598f4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3786, y: 3644}
+    spritePosition: {x: 0, y: 0}
+  - name: Camada 41 copiar
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3786
+      y: 8697
+      width: 1325
+      height: 533
+    spriteID: f6e7b63fe6fe19e4691563c4a4de1298
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3786, y: 8697}
+    spritePosition: {x: 2449, y: 47}
+  - name: Camada 41
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3786
+      y: 8156
+      width: 1381
+      height: 533
+    spriteID: 2e794b8ddb1732b4e8269b624583b13a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3786, y: 8156}
+    spritePosition: {x: 0, y: 47}
+  - name: Camada 39 copiar 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3786
+      y: 7600
+      width: 1420
+      height: 548
+    spriteID: 22279d75425add9418729e8cd1efb736
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3786, y: 7600}
+    spritePosition: {x: 2354, y: 6}
+  - name: Camada 39
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3786
+      y: 6488
+      width: 1478
+      height: 548
+    spriteID: 80c34cf4ec89e744e9bf9056f5d25ea3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3786, y: 6488}
+    spritePosition: {x: 0, y: 6}
+  - name: Camada 38
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 8532
+      width: 3774
+      height: 2124
+    spriteID: 944ff7e1ad1a530439ba48c138ac9258
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 8532}
+    spritePosition: {x: 0, y: 0}
+  - name: Camada 36 copiar
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3786
+      y: 5039
+      width: 3774
+      height: 1027
+    spriteID: c80c54d40291dff4ca79048f98a873cd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3786, y: 5039}
+    spritePosition: {x: 0, y: 135}
+  - name: Camada 39 copiar
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3786
+      y: 7044
+      width: 1478
+      height: 548
+    spriteID: e351b7e6a39a98f49985de2a7e978220
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3786, y: 7044}
+    spritePosition: {x: 0, y: 6}
+  - name: Camada 35 copiar
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3786
+      y: 4
+      width: 3774
+      height: 1959
+    spriteID: fe2ee4d488a6d964ebb3668f078679e3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3786, y: 4}
+    spritePosition: {x: 0, y: 165}
+  - name: Camada 40
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3786
+      y: 6074
+      width: 2589
+      height: 406
+    spriteID: 3dcd14afe67231a479f776e6266d7bf9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3786, y: 6074}
+    spritePosition: {x: 607, y: 134}
+  - name: Camada 29
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 14928
+      width: 3774
+      height: 1410
+    spriteID: 1d96223160bf83c45be3da75a12c790a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 14928}
+    spritePosition: {x: 0, y: 0}
+  - name: Camada 37
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3786
+      y: 1971
+      width: 3774
+      height: 1665
+    spriteID: 79d14767f929d4b4c8144f0d127c0900
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3786, y: 1971}
+    spritePosition: {x: 0, y: 458}
+  - name: Camada 24
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 10664
+      width: 3774
+      height: 2124
+    spriteID: e98c5a477e15e1f418812045af86e5ed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 10664}
+    spritePosition: {x: 0, y: 0}
+  - name: Plano de Fundo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 12796
+      width: 3774
+      height: 2124
+    spriteID: 3ce98e650a70f854f82c428e73e37d7d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 12796}
+    spritePosition: {x: 0, y: 0}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 0
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Camada 46
+    spriteName: Camada 46
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1db6cf4af1ded7442911b549df0dc585
+    layerID: 185
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Bk
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 6f2870b009652be408dccae5d3478bc0
+    layerID: 144
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Camada 1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 4a9134f1aa5ce514aa891be391a99ed4
+    layerID: 5
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Camada 45
+    spriteName: Camada 45
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 9523f40d58fdd6a4e966c86196becc1f
+    layerID: 125
+    mosaicPosition: {x: 4, y: 2136}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Camada 43
+    spriteName: Camada 43
+    isGroup: 0
+    parentIndex: 1
+    spriteID: ce84c2f2d3505434ba0f3ca24e38825f
+    layerID: 123
+    mosaicPosition: {x: 4, y: 4268}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Camada 44
+    spriteName: Camada 44
+    isGroup: 0
+    parentIndex: 1
+    spriteID: b990675ebb0cb6b45b927cbc7ed6cf56
+    layerID: 124
+    mosaicPosition: {x: 4, y: 6400}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Camada 42
+    spriteName: Camada 42
+    isGroup: 0
+    parentIndex: 1
+    spriteID: abefc3934f866f94fa0507aded9598f4
+    layerID: 122
+    mosaicPosition: {x: 3786, y: 3644}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Agrupar 1
+    spriteName: 
+    isGroup: 1
+    parentIndex: 1
+    spriteID: 7ef8cda780595924cb040e8d402ae22a
+    layerID: 100
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Camada 41 copiar
+    spriteName: Camada 41 copiar
+    isGroup: 0
+    parentIndex: 7
+    spriteID: f6e7b63fe6fe19e4691563c4a4de1298
+    layerID: 120
+    mosaicPosition: {x: 3786, y: 8697}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Camada 41
+    spriteName: Camada 41
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 2e794b8ddb1732b4e8269b624583b13a
+    layerID: 119
+    mosaicPosition: {x: 3786, y: 8156}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Camada 39 copiar 3
+    spriteName: Camada 39 copiar 3
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 22279d75425add9418729e8cd1efb736
+    layerID: 117
+    mosaicPosition: {x: 3786, y: 7600}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Camada 39
+    spriteName: Camada 39
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 80c34cf4ec89e744e9bf9056f5d25ea3
+    layerID: 114
+    mosaicPosition: {x: 3786, y: 6488}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Camada 38
+    spriteName: Camada 38
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 944ff7e1ad1a530439ba48c138ac9258
+    layerID: 113
+    mosaicPosition: {x: 4, y: 8532}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Camada 36 copiar
+    spriteName: Camada 36 copiar
+    isGroup: 0
+    parentIndex: 7
+    spriteID: c80c54d40291dff4ca79048f98a873cd
+    layerID: 94
+    mosaicPosition: {x: 3786, y: 5039}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Camada 39 copiar
+    spriteName: Camada 39 copiar
+    isGroup: 0
+    parentIndex: 7
+    spriteID: e351b7e6a39a98f49985de2a7e978220
+    layerID: 115
+    mosaicPosition: {x: 3786, y: 7044}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Camada 35 copiar
+    spriteName: Camada 35 copiar
+    isGroup: 0
+    parentIndex: 7
+    spriteID: fe2ee4d488a6d964ebb3668f078679e3
+    layerID: 95
+    mosaicPosition: {x: 3786, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Camada 40
+    spriteName: Camada 40
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 3dcd14afe67231a479f776e6266d7bf9
+    layerID: 118
+    mosaicPosition: {x: 3786, y: 6074}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Camada 29
+    spriteName: Camada 29
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 1d96223160bf83c45be3da75a12c790a
+    layerID: 86
+    mosaicPosition: {x: 4, y: 14928}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Camada 37
+    spriteName: Camada 37
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 79d14767f929d4b4c8144f0d127c0900
+    layerID: 103
+    mosaicPosition: {x: 3786, y: 1971}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Camada 24
+    spriteName: Camada 24
+    isGroup: 0
+    parentIndex: 1
+    spriteID: e98c5a477e15e1f418812045af86e5ed
+    layerID: 66
+    mosaicPosition: {x: 4, y: 10664}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Plano de Fundo
+    spriteName: Plano de Fundo
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3ce98e650a70f854f82c428e73e37d7d
+    layerID: 1
+    mosaicPosition: {x: 4, y: 12796}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
