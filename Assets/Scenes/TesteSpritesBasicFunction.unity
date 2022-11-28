@@ -247,10 +247,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minValue: 0
+  levelChanger: {fileID: 0}
   resourceManager: {fileID: 91031537}
   cardGameObject: {fileID: 6794146591938592833}
   cardSprite: {fileID: 838879682}
   mainCardController: {fileID: 6794146591938592834}
+  currentSpriteObject: {fileID: 0}
   fMovingSpeed: 5
   fSideMargin: 1
   fSideTrigger: 2
