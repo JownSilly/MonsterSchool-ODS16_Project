@@ -180,16 +180,17 @@ public class GameManager : MonoBehaviour
     }
     public void EndLevel()
     {
-        float media = (teacherIconM + studentsIconM + moneyIconM + parentsIconM) / resourceManager.cards.Length;
+        float media = (teacherIconM + studentsIconM + moneyIconM + parentsIconM) / 4;
         if (media < 70)
         {
             levelChanger.FadeToLevel(2);
             //SceneManager.LoadScene();
-            display.text = "você tirou uma nota menor que 70, infelizmente voce perdeu [" + media;
+            StateEndGame.text_Option = "Sua nota foi inferior a 70, infelizmente você não se saiu tão bem, mas mesmo errando, aprendemos algo :) (TIPO ESSE JOGO Q FOI UM ERRO). Sua média ["+ media+"]";
         }
         else
         {
-            display.text = "você tirou uma nota maior que 70, voce venceu o nivel [" + media;
+            levelChanger.FadeToLevel(2);
+            StateEndGame.text_Option = "Sua nota foi Superior a 70, você se saiu bem como Diretor de primeira viajem, espero que sua jornada perdure. Sua média [" + media + "]";
         }
     }
     // Verifica o Fim do Jogo para Aquele que Zerarem algum dos Atributos
