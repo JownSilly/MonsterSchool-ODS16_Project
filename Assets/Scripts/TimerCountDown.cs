@@ -49,7 +49,7 @@ public class TimerCountDown : MonoBehaviour
                 if (random == 1)
                 {
                     gameManager.currentCard.Left();
-                    //gameManager.GameOvers();
+                    gameManager.GameOvers();
                     DestroyImmediate(gameManager.currentSpriteObject);
                     gameManager.NewCard();
                     currentTime = startingTime;
@@ -57,7 +57,7 @@ public class TimerCountDown : MonoBehaviour
                 else
                 {
                     gameManager.currentCard.Right();
-                    //gameManager.GameOvers();
+                    gameManager.GameOvers();
                     DestroyImmediate(gameManager.currentSpriteObject);
                     gameManager.NewCard();
                     currentTime = startingTime;

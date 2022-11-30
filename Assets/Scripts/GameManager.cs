@@ -85,7 +85,7 @@ public class GameManager : MonoBehaviour
             if (Input.GetMouseButtonUp(0))
             {
                 currentCard.Right();
-                //GameOvers();
+                GameOvers();
                 DestroyImmediate(currentSpriteObject);
                 NewCard();
                 isNewCard = "hasRight";
@@ -111,7 +111,7 @@ public class GameManager : MonoBehaviour
             if (Input.GetMouseButtonUp(0))
             {
                 currentCard.Left();
-                //GameOvers();
+                GameOvers();
                 DestroyImmediate(currentSpriteObject);
                 NewCard();
                 isNewCard = "hasLeft";
@@ -130,7 +130,6 @@ public class GameManager : MonoBehaviour
             cardGameObject.transform.position = Vector2.MoveTowards(cardGameObject.transform.position, new Vector2(0, 0), fMovingSpeed);
         }
         //UI
-        //display.text = ""+ textColor.a;
     }
     public void LoadCard(Card card)
     {
@@ -184,7 +183,6 @@ public class GameManager : MonoBehaviour
         if (media < 70)
         {
             levelChanger.FadeToLevel(2);
-            //SceneManager.LoadScene();
             StateEndGame.text_Option = "Sua nota foi inferior a 70, infelizmente você não se saiu tão bem, mas mesmo errando, aprendemos algo :) (TIPO ESSE JOGO Q FOI UM ERRO). Sua média ["+ media+"]";
         }
         else
@@ -194,23 +192,27 @@ public class GameManager : MonoBehaviour
         }
     }
     // Verifica o Fim do Jogo para Aquele que Zerarem algum dos Atributos
-    /*public void GameOvers()
+    public void GameOvers()
     {
         if (teacherIconM <= 0)
         {
-            SceneManager.LoadScene("Menu");
+            levelChanger.FadeToLevel(2);
+            StateEndGame.text_Option = "Os professores organizaram um motin por conta da situação insalubre que você os deixou, ninguem está ao seu lado.";
         } else if (studentsIconM <= 0)
         {
-            SceneManager.LoadScene("Menu");
+            levelChanger.FadeToLevel(2);
+            StateEndGame.text_Option = "Os estudantes estão descontente com a situação a qual a escola se encontra, não se sentem bem com o ambiente ou com o valor que possuem para escola, muitos estão saindo...";
         }
         else if (parentsIconM <= 0)
         {
-            SceneManager.LoadScene("Menu");
+            levelChanger.FadeToLevel(2);
+            StateEndGame.text_Option = "O pais dos estudante acreditam que a escola não seja o ambiente ideal para seus filhos, estão optando por realoca-los em outras instituições.";
         }
         else if (moneyIconM <= 0)
         {
-            SceneManager.LoadScene("Menu");
+            levelChanger.FadeToLevel(2);
+            StateEndGame.text_Option = "A verba escolar é praticamente inexistente, não será possivel manter siquer mais nenhum dia aberta, infelizmente é decretada a falência";
         }
     }
-    */
+    
 }
