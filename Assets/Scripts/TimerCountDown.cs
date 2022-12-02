@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class TimerCountDown : MonoBehaviour
 {
+    public Animator animatorRelogio;
+    public bool isTrigger;
     public GameManager gameManager;
     public float currentTime = 0f;
     public float startingTime = 15f;
@@ -35,9 +37,11 @@ public class TimerCountDown : MonoBehaviour
                 if (currentTime <= 3)
                 {
                     countDownText.color = colorText;
+                    animatorRelogio.SetBool("isAlarming", true);
                 }
                 else
                 {
+                    animatorRelogio.SetBool("isAlarming", false);
                     countDownText.color = standardColorText;
                 }
             }

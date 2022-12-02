@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/SalaDirecao_1.unity
     guid: f4fcee28bb7ad8e46be5119eb196f4dd
   - enabled: 1
-    path: Assets/Scenes/ScenaWIP.unity
+    path: Assets/Scenes/Finais de Jogo.unity
     guid: a204b8b198ae82840af6ffce0b7c4fe0
   m_configObjects: {}
