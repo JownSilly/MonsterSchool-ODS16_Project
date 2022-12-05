@@ -9,7 +9,7 @@ public class MenuManager : MonoBehaviour
   [SerializeField] private GameObject Painel_Menu;
   [SerializeField] private GameObject Painel_opcoes;
     [SerializeField] private LevelChanger levelChanger;
-                   public bool isClicked;
+
     public void Comecar()
     {
         levelChanger.FadeToLevel(1);

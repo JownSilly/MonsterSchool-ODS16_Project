@@ -10,10 +10,11 @@ using TMPro;
 
 public class typeWriterUI : MonoBehaviour
 {
+	
 	Text _text;
 	TMP_Text _tmpProText;
 	string writer;
-
+	[SerializeField] GameObject returnMenu;
 	[SerializeField] float delayBeforeStart = 0f;
 	[SerializeField] float timeBtwChars = 0.1f;
 	[SerializeField] string leadingChar = "";
@@ -40,6 +41,7 @@ public class typeWriterUI : MonoBehaviour
 			_tmpProText.text = "";
 
 			StartCoroutine("TypeWriterTMP");
+			
 		}
 	}
 
@@ -87,5 +89,7 @@ public class typeWriterUI : MonoBehaviour
 		{
 			_tmpProText.text = _tmpProText.text.Substring(0, _tmpProText.text.Length - leadingChar.Length);
 		}
+
+		returnMenu.SetActive(true);
 	}
 }
