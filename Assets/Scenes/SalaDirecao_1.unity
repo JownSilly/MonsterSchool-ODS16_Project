@@ -577,6 +577,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 1970754273}
+  mainCardController: {fileID: 8586457877266571976}
 --- !u!114 &342000333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1249,6 +1250,7 @@ MonoBehaviour:
   rMinValue: 0
   rMaxValue: 3
   repeatedNumber: 
+  woosh_effect: {fileID: 8586457877266571979}
 --- !u!114 &679373977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3298,6 +3300,67 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &2022839404
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3594683367216298122, guid: 4cd16a38abe339a44b97fe318ddf31a0, type: 3}
+      propertyPath: m_Name
+      value: BG Music
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594683367216298124, guid: 4cd16a38abe339a44b97fe318ddf31a0, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594683367216298124, guid: 4cd16a38abe339a44b97fe318ddf31a0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.665957
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594683367216298124, guid: 4cd16a38abe339a44b97fe318ddf31a0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.24852854
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594683367216298124, guid: 4cd16a38abe339a44b97fe318ddf31a0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.96579
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594683367216298124, guid: 4cd16a38abe339a44b97fe318ddf31a0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594683367216298124, guid: 4cd16a38abe339a44b97fe318ddf31a0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594683367216298124, guid: 4cd16a38abe339a44b97fe318ddf31a0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594683367216298124, guid: 4cd16a38abe339a44b97fe318ddf31a0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594683367216298124, guid: 4cd16a38abe339a44b97fe318ddf31a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594683367216298124, guid: 4cd16a38abe339a44b97fe318ddf31a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594683367216298124, guid: 4cd16a38abe339a44b97fe318ddf31a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594683367216298127, guid: 4cd16a38abe339a44b97fe318ddf31a0, type: 3}
+      propertyPath: volumeSom
+      value: 
+      objectReference: {fileID: 19172123}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cd16a38abe339a44b97fe318ddf31a0, type: 3}
 --- !u!1 &2084314309
 GameObject:
   m_ObjectHideFlags: 0
@@ -4114,8 +4177,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 40226816ca176324085ea8ab2d00f53d, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

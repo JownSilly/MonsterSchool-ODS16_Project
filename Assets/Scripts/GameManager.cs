@@ -50,6 +50,8 @@ public class GameManager : MonoBehaviour
     public int rMinValue;
     public int rMaxValue;
     public List<int> repeatedNumber = new List<int>();
+    //sound
+    public AudioSource woosh_effect;
     void Start()
     {
         teacherIconM = 50;
@@ -85,6 +87,7 @@ public class GameManager : MonoBehaviour
             if (Input.GetMouseButtonUp(0))
             {
                 currentCard.Right();
+                woosh_effect.Play();
                 GameOvers();
                 DestroyImmediate(currentSpriteObject);
                 NewCard();
@@ -111,6 +114,7 @@ public class GameManager : MonoBehaviour
             if (Input.GetMouseButtonUp(0))
             {
                 currentCard.Left();
+                woosh_effect.Play();
                 GameOvers();
                 DestroyImmediate(currentSpriteObject);
                 NewCard();
