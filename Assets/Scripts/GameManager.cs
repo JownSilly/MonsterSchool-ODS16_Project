@@ -79,7 +79,7 @@ public class GameManager : MonoBehaviour
         
         //Logica de valores de gerenciamento
         textColor.a = Mathf.Min((Mathf.Abs(cardGameObject.transform.position.x) - fSideMargin) / divideValue, 1);
-        opacityQuote.a = Mathf.Min((Mathf.Abs(cardGameObject.transform.position.x) - fSideMargin) / divideValue, .5f);
+        opacityQuote.a = Mathf.Min((Mathf.Abs(cardGameObject.transform.position.x) - fSideMargin) / divideValue, 1);
         //Dialogo Texto
         if (cardGameObject.transform.position.x > fSideTrigger)
         {
