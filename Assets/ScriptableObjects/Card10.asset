@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 261fadf7290b1154a9517cb48cb44157, type: 3}
+  m_Name: Card10
+  m_EditorClassIdentifier: 
+  cardID: 10
+  dialogueText: "Senhor o \xF4nibus da escola est\xE1 com problema no motor, eu posso
+    resolver isso por enquanto mas o correto seria mandar a um mec\xE2nico."
+  nameText: Zelador Pivara
+  cardName: Card10
+  sprite: 4
+  respostaEsquerda: "Fa\xE7a o que pode no momento (Gambiarra)"
+  respostaDireita: "Vou notificar a tesouraria para contar mec\xE2nicos"
+  mIconTeacherLeft: 0
+  mIconStudentsLeft: 0
+  mIconParentsLeft: 0
+  mIconMoneyLeft: -10
+  mIconTeacherRight: 0
+  mIconStudentsRight: 0
+  mIconParentsRight: 0
+  mIconMoneyRight: -30

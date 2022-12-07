@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 261fadf7290b1154a9517cb48cb44157, type: 3}
+  m_Name: Card7
+  m_EditorClassIdentifier: 
+  cardID: 7
+  dialogueText: "Ol\xE1 Diretor, Como Representante dos pais venho aqui informar
+    a insatisfa\xE7\xE3o com o n\xFAmero de reuni\xF5es entre professores e pais,
+    o que pedimos \xE9 que elas sejam realizadas pelo menos duas vezes por m\xEAs."
+  nameText: Representante Tarcia (Pais)
+  cardName: Card7
+  sprite: 1
+  respostaEsquerda: "Convocarei uma assembleia para que seja melhor combinado as
+    reuni\xF5es"
+  respostaDireita: " As reuni\xF5es permaneceram como est\xE3o"
+  mIconTeacherLeft: -20
+  mIconStudentsLeft: 0
+  mIconParentsLeft: 30
+  mIconMoneyLeft: 0
+  mIconTeacherRight: 20
+  mIconStudentsRight: 0
+  mIconParentsRight: -10
+  mIconMoneyRight: 0
