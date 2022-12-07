@@ -44,7 +44,6 @@ public class GameManager : MonoBehaviour
     private string leftQuote;
     private string rightQuote;
     public Card currentCard;
-    public Card testCard;
     public int days;
     //Numero aleatorio
     public int randomNumber;

@@ -1233,7 +1233,7 @@ MonoBehaviour:
   fMovingSpeed: 5
   fSideMargin: 1
   fSideTrigger: 2
-  textColor: {r: 0.07519613, g: 0.7924528, b: 0, a: 1}
+  textColor: {r: 1, g: 1, b: 1, a: 1}
   opacityQuote: {r: 0, g: 0, b: 0, a: 0}
   divideValue: 2
   actionQuote: {fileID: 1348080657}
