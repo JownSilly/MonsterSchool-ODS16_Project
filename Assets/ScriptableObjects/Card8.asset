@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 261fadf7290b1154a9517cb48cb44157, type: 3}
+  m_Name: Card8
+  m_EditorClassIdentifier: 
+  cardID: 8
+  dialogueText: "Senhor, os alunos n\xE3o est\xE3o satisfeitos com apenas 10 minutos
+    de intervalo e pedem o aumento para 15 minutos"
+  nameText: Aluno Juninho
+  cardName: Card8
+  sprite: 2
+  respostaEsquerda: Irei verificar o que pode ser feito
+  respostaDireita: "N\xE3o podemos mudar algo assim\u2026"
+  mIconTeacherLeft: -20
+  mIconStudentsLeft: 30
+  mIconParentsLeft: 0
+  mIconMoneyLeft: 0
+  mIconTeacherRight: 20
+  mIconStudentsRight: -20
+  mIconParentsRight: 0
+  mIconMoneyRight: 0

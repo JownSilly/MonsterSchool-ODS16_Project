@@ -3,17 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class MenuManager : MonoBehaviour
 {
   [SerializeField] private int indice;
   [SerializeField] private GameObject Painel_Menu;
   [SerializeField] private GameObject Painel_opcoes;
-    [SerializeField] private LevelChanger levelChanger;
+  [SerializeField] private LevelChanger levelChanger;
 
     public void Comecar()
     {
         levelChanger.FadeToLevel(1);
-            }
+    }
 
     public void Abrir_opcoes()
     {
@@ -27,7 +28,6 @@ public class MenuManager : MonoBehaviour
     }
     public void Sair()
     {
-        Debug.Log("Sair do Jogo");
         Application.Quit();
     }
 }

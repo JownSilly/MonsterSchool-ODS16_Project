@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 261fadf7290b1154a9517cb48cb44157, type: 3}
+  m_Name: Card5
+  m_EditorClassIdentifier: 
+  cardID: 5
+  dialogueText: "Ol\xE1 Diretor, Venho pensando em uma forma de empolgar os novos
+    alunos durante as aulas, e recentemente pensei em alguns experimentos qu\xEDmicos
+    com azul de metileno. Poderia fazer o pedido desse material?"
+  nameText: Professor Itzal
+  cardName: Card5
+  sprite: 3
+  respostaEsquerda: Vou pedir para ser adicionado na lista de compras
+  respostaDireita: "Vou considerar a proposta\u2026"
+  mIconTeacherLeft: 20
+  mIconStudentsLeft: 0
+  mIconParentsLeft: 0
+  mIconMoneyLeft: -20
+  mIconTeacherRight: -10
+  mIconStudentsRight: 0
+  mIconParentsRight: 0
+  mIconMoneyRight: 0

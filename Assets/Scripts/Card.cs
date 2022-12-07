@@ -7,6 +7,7 @@ public class Card : ScriptableObject
     //Basic Variables
     public int cardID;
     public string dialogueText;
+    public string nameText;
     public string cardName;
     public CardSprite sprite;
     public string respostaEsquerda;

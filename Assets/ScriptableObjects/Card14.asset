@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 261fadf7290b1154a9517cb48cb44157, type: 3}
+  m_Name: Card14
+  m_EditorClassIdentifier: 
+  cardID: 14
+  dialogueText: " Diretor, alguns pais est\xE3o reclamando de um certo professor,
+    gostar\xEDamos de ter uma reuni\xE3o com ele para resolver isso"
+  nameText: Representante Tarcia (Pais)
+  cardName: Card14
+  sprite: 1
+  respostaEsquerda: "Irei providenciar essa reuni\xE3o"
+  respostaDireita: " Eu irei intervir primeiro me diga o que est\xE1 ocorrendo"
+  mIconTeacherLeft: -20
+  mIconStudentsLeft: 0
+  mIconParentsLeft: 30
+  mIconMoneyLeft: 0
+  mIconTeacherRight: -10
+  mIconStudentsRight: 0
+  mIconParentsRight: 10
+  mIconMoneyRight: 0

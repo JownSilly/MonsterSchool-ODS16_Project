@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 261fadf7290b1154a9517cb48cb44157, type: 3}
+  m_Name: Card2
+  m_EditorClassIdentifier: 
+  cardID: 2
+  dialogueText: "Ol\xE1 Diretor, com a transi\xE7\xE3o entre o senhor e o antigo
+    diretor, os professores acabaram n\xE3o entregando o relat\xF3rio dos alunos
+    aos pais, poderia verificar o que houve?"
+  nameText: Representante Tarcia (Pais)
+  cardName: Card2
+  sprite: 1
+  respostaEsquerda: "Notificar aos professores para realizarem o relat\xF3rio"
+  respostaDireita: "Como a escola est\xE1 passando por essa transi\xE7\xE3o a entrega
+    foi suspensa"
+  mIconTeacherLeft: -30
+  mIconStudentsLeft: 0
+  mIconParentsLeft: 20
+  mIconMoneyLeft: 0
+  mIconTeacherRight: 10
+  mIconStudentsRight: 0
+  mIconParentsRight: -10
+  mIconMoneyRight: 0

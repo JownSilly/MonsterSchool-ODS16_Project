@@ -35,6 +35,7 @@ public class GameManager : MonoBehaviour
     public SpriteRenderer backgroundActionQuote;
     public TMP_Text display;
     public TMP_Text characterDialogue;
+    public TMP_Text characterName;
     public string direction;
     public string isNewCard;
     public TMP_Text daysText;
@@ -93,7 +94,8 @@ public class GameManager : MonoBehaviour
                 NewCard();
                 isNewCard = "hasRight";
             }
-        }else if (cardGameObject.transform.position.x > fSideMargin)
+        }
+        else if (cardGameObject.transform.position.x > fSideMargin)
         {
             direction = "right";
         }
@@ -137,14 +139,16 @@ public class GameManager : MonoBehaviour
     }
     public void LoadCard(Card card)
     {
-        currentSpriteObject = Instantiate(resourceManager.cardSpritePrefab[(int)card.sprite], new Vector3(cardSprite.transform.parent.position.x, cardSprite.transform.parent.position.y, 0), Quaternion.identity);
+        currentSpriteObject = Instantiate(resourceManager.cardSpritePrefab[(int)card.sprite], new Vector3(cardSprite.transform.parent.position.x - .9f, cardSprite.transform.parent.position.y + 1.2f, 0), Quaternion.identity);
         currentSpriteObject.transform.SetParent(cardSprite.transform.parent);
-        currentSpriteObject.transform.localScale = new Vector3(1, 1, 1);
+        currentSpriteObject.transform.localScale = new Vector3(.4f, .4f, 1);
         leftQuote = card.respostaEsquerda;
         rightQuote = card.respostaDireita;
         currentCard = card;
         characterDialogue.text = card.dialogueText;
-        
+        characterName.text = card.nameText;
+
+
     }
     public void NewCard()
     {
