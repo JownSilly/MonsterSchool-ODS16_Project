@@ -188,15 +188,15 @@ public class GameManager : MonoBehaviour
     public void EndLevel()
     {
         float media = (teacherIconM + studentsIconM + moneyIconM + parentsIconM) / 4;
-        if (media < 70)
+        if (media < 60)
         {
             levelChanger.FadeToLevel(2);
-            StateEndGame.text_Option = "Sua nota foi inferior a 70, infelizmente você não se saiu tão bem, mas mesmo errando, aprendemos algo :) (TIPO ESSE JOGO Q FOI UM ERRO). Sua média ["+ media+"]";
+            StateEndGame.text_Option = "Sua Pontuação foi inferior a 60, realmente não é facil administrar para todos, mas sabemos que voce consegue, tente novamente se possivel. Obrigado por jogar essa demonstração!!! Sua Pontuação: ["+ media+"]";
         }
         else
         {
             levelChanger.FadeToLevel(2);
-            StateEndGame.text_Option = "Sua nota foi Superior a 70, você se saiu bem como Diretor de primeira viajem, espero que sua jornada perdure. Sua média [" + media + "]";
+            StateEndGame.text_Option = "Sua pontuação foi Superior a 60, Parabéns! Por ter conseguido atender ao desejo de todos de forma igualitária e justa, se prepare para novas futuras escolhas. Obrigado por jogar essa demonstração!!! Sua Pontuação: [" + media + "]";
         }
     }
     // Verifica o Fim do Jogo para Aquele que Zerarem algum dos Atributos
@@ -205,21 +205,21 @@ public class GameManager : MonoBehaviour
         if (teacherIconM <= 0)
         {
             levelChanger.FadeToLevel(2);
-            StateEndGame.text_Option = "Os professores organizaram um motin por conta da situação insalubre que você os deixou, ninguem está ao seu lado.";
+            StateEndGame.text_Option = "Os professores organizaram uma greve que se extendeu por tempo demais. Ninguem está ao seu lado.";
         } else if (studentsIconM <= 0)
         {
             levelChanger.FadeToLevel(2);
-            StateEndGame.text_Option = "Os estudantes estão descontente com a situação a qual a escola se encontra, não se sentem bem com o ambiente ou com o valor que possuem para escola, muitos estão saindo...";
+            StateEndGame.text_Option = "Os estudantes estão descontente com a situação a qual a escola se encontra, muitos estão saindo... Ninguem está ao seu lado";
         }
         else if (parentsIconM <= 0)
         {
             levelChanger.FadeToLevel(2);
-            StateEndGame.text_Option = "O pais dos estudante acreditam que a escola não seja o ambiente ideal para seus filhos, estão optando por realoca-los em outras instituições.";
+            StateEndGame.text_Option = "O pais dos estudante acreditam que a escola não seja o ambiente ideal para seus filhos, estão optando por realoca-los em outras instituições... Ninguem está ao seu lado";
         }
         else if (moneyIconM <= 0)
         {
             levelChanger.FadeToLevel(2);
-            StateEndGame.text_Option = "A verba escolar é praticamente inexistente, não será possivel manter siquer mais nenhum dia aberta, infelizmente é decretada a falência";
+            StateEndGame.text_Option = "A verba escolar é praticamente inexistente, não será possivel manter se quer mais um dia aberto as portas, infelizmente é decretada a falência... Ninguem está ao seu lado";
         }
     }
     

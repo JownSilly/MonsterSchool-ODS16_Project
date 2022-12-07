@@ -23,8 +23,8 @@ MonoBehaviour:
   mIconTeacherLeft: 0
   mIconStudentsLeft: 0
   mIconParentsLeft: 0
-  mIconMoneyLeft: -20
+  mIconMoneyLeft: -10
   mIconTeacherRight: 0
   mIconStudentsRight: 0
   mIconParentsRight: 0
-  mIconMoneyRight: -40
+  mIconMoneyRight: -30

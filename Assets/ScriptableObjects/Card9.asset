@@ -21,10 +21,10 @@ MonoBehaviour:
   sprite: 3
   respostaEsquerda: "Vou pedir para ser feito um or\xE7amento"
   respostaDireita: "No momento n\xE3o temos recursos o suficiente dispon\xEDveis"
-  mIconTeacherLeft: 50
+  mIconTeacherLeft: 30
   mIconStudentsLeft: 0
   mIconParentsLeft: 0
-  mIconMoneyLeft: -40
+  mIconMoneyLeft: -20
   mIconTeacherRight: -25
   mIconStudentsRight: 0
   mIconParentsRight: 0

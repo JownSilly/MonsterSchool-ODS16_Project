@@ -20,11 +20,11 @@ MonoBehaviour:
   sprite: 0
   respostaEsquerda: "N\xE3o, daremos outro jeito "
   respostaDireita: "Fa\xE7a a papelada e notifique a todos"
-  mIconTeacherLeft: 20
+  mIconTeacherLeft: 30
   mIconStudentsLeft: 0
   mIconParentsLeft: 0
-  mIconMoneyLeft: -30
-  mIconTeacherRight: -40
+  mIconMoneyLeft: -20
+  mIconTeacherRight: -30
   mIconStudentsRight: 0
   mIconParentsRight: 0
   mIconMoneyRight: 30

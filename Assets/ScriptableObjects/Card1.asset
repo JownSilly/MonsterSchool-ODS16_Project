@@ -23,8 +23,8 @@ MonoBehaviour:
   respostaEsquerda: Priorize o menor valor
   respostaDireita: Priorize a qualidade
   mIconTeacherLeft: 0
-  mIconStudentsLeft: -20
-  mIconParentsLeft: -20
+  mIconStudentsLeft: -15
+  mIconParentsLeft: -15
   mIconMoneyLeft: 0
   mIconTeacherRight: 0
   mIconStudentsRight: 20
